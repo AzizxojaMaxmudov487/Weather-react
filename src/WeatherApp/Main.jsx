@@ -1,0 +1,18 @@
+import React from 'react'
+import './style.css'
+import TopNav from './TopNav'
+import Application from './Application'
+
+
+function Main() {
+  return (
+    <>
+    <div>
+        <TopNav/>
+        <Application/>
+    </div>
+    </>
+  )
+}
+
+export default Main
